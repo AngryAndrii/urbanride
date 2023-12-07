@@ -20,6 +20,11 @@ export const VehicleCard = ({ data }) => {
       {make}
       {year}
       {rentalPrice}
+      {address}
+      {rentalCompany}
+      {type}
+      {id}
+      {functionalities}
     </div>
   );
 };
