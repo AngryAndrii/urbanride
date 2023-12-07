@@ -3,11 +3,12 @@ import Favorites from './pages/Favorites/Favorites';
 import Catalog from './pages/Catalog/Catalog';
 import NotFound from './pages/NotFound/NotFound';
 import { Routes, Route, NavLink } from 'react-router-dom';
+import StyledApp from './App.styled';
 
 function App() {
   return (
-    <>
-      <nav>
+    <StyledApp>
+      <nav className="container">
         <NavLink to="/" end>
           Home
         </NavLink>
@@ -20,7 +21,7 @@ function App() {
         <Route path="/favorites" element={<Favorites />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </>
+    </StyledApp>
   );
 }
 
