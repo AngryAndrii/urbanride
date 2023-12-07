@@ -1,19 +1,29 @@
 import { useEffect } from 'react';
 import { fetchCars } from '../../redux/operations';
 import { useDispatch, useSelector } from 'react-redux';
+import { getCars } from '../../redux/selectors';
+import { VehicleCard } from '../../components/vehhicleCard';
 
 const Catalog = () => {
   const dispatch = useDispatch();
-  const lol = useSelector(state => state.cars);
+  const cars = useSelector(getCars);
 
   useEffect(() => {
-    dispatch(fetchCars());
+    if (!cars.lengh) {
+      dispatch(fetchCars());
+    }
   }, [dispatch]);
 
   return (
     <>
       <h1>Catalog</h1>
-      {console.log(lol)}
+      <ul>
+        {cars.map((el, id) => (
+          <li key={id}>
+            <VehicleCard data={el} />
+          </li>
+        ))}
+      </ul>
     </>
   );
 };
