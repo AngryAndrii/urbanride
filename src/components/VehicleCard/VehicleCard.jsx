@@ -85,7 +85,7 @@ export const VehicleCard = ({ data }) => {
           </div>
 
           <button type="bytton" className="info_button">
-            more
+            Learn more
           </button>
         </div>
       </StyledCard>

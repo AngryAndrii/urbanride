@@ -7,12 +7,11 @@ const StyledCard = styled.div`
   width: 274px;
   height: 426px;
   border-radius: 14px;
-  &:hover {
-    transform: scale(1.02);
+  /* &:hover {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
       0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
       0 16px 16px rgba(0, 0, 0, 0.12);
-  }
+  } */
   .img_div {
     width: 100%;
     height: 268px;
@@ -66,6 +65,12 @@ const StyledCard = styled.div`
     width: 100%;
     height: 44px;
     margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .info_button:is(:hover, :focus) {
+    background-color: #0b44cd;
   }
 `;
 

@@ -6,14 +6,16 @@ const StyledApp = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 40px;
+    align-items: center;
+    height: 75px;
     column-gap: 15px;
     font-size: 25px;
-    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    background-color: #9eb8d9;
   }
 
   nav > a {
-    display: block;
+    margin-top: 20px;
     height: 100%;
   }
 `;

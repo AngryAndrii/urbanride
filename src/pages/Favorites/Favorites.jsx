@@ -3,12 +3,13 @@ import StyledList from '../Catalog/Catalog.styled';
 import { selectFavorites } from '../../redux/favorites/favoritesSelectors';
 import Filter from '../../components/Filter/Filter';
 import { VehicleCard } from '../../components/VehicleCard/VehicleCard';
+import StyledFavPage from './Favorites.styled';
 
 const Favorites = () => {
   const favorites = useSelector(selectFavorites);
 
   return (
-    <div>
+    <StyledFavPage>
       <div>
         {favorites.length === 0 ? (
           <h1>Favorite list is empty</h1>
@@ -25,7 +26,7 @@ const Favorites = () => {
           </>
         )}
       </div>
-    </div>
+    </StyledFavPage>
   );
 };
 

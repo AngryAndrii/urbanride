@@ -8,7 +8,7 @@ import StyledApp from './App.styled';
 function App() {
   return (
     <StyledApp>
-      <nav className="container">
+      <nav>
         <NavLink to="/" end>
           Home
         </NavLink>

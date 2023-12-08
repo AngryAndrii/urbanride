@@ -8,11 +8,11 @@ const Home = () => {
       Rentals in Ukrainian Cities!
       <p>
         Discover the freedom of exploring Ukraine at your own pace with
-        CarRentalsUA. Whether you're a tourist eager to explore the rich
-        cultural heritage or a business traveler on the go, our extensive fleet
-        of well-maintained vehicles ensures a comfortable and reliable journey.
+        UrbanRide. Whether you're a tourist eager to explore the rich cultural
+        heritage or a business traveler on the go, our extensive fleet of
+        well-maintained vehicles ensures a comfortable and reliable journey.
       </p>
-      <h2>Why Choose CarRentalsUA?</h2>
+      <h2>Why Choose UrbanRide?</h2>
       <ul>
         <li>
           <h3>Wide Range of Vehicles: </h3>
