@@ -2,8 +2,9 @@ import { useEffect } from 'react';
 import { fetchCars } from '../../redux/operations';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCars } from '../../redux/selectors';
-import { VehicleCard } from '../../components/VehicleCard';
+import { VehicleCard } from '../../components/VehicleCard/VehicleCard';
 import StyledList from './Catalog.styled';
+import Filter from '../../components/Filter/Filter';
 
 const Catalog = () => {
   const dispatch = useDispatch();
@@ -17,6 +18,7 @@ const Catalog = () => {
 
   return (
     <>
+      <Filter cars={cars} />
       <StyledList className="container">
         {cars.map((el, id) => (
           <li key={id}>

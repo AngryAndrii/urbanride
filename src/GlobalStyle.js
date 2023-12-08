@@ -38,4 +38,19 @@ a {
 
 img {
   display: block;
-}`;
+}
+
+.like_button {
+  position: absolute;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  right: 14px;
+  top: 14px;
+  width: 18px;
+  height: 18px;
+}
+
+.like_button:hover {
+  transform: scale(1.3);
+}
+`;
