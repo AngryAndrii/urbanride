@@ -3,6 +3,9 @@ import StyledCard from './VehicleCard.styled';
 import { FaRegHeart, FaHeart } from 'react-icons/fa6';
 import { selectFavorites } from '../../redux/favorites/favoritesSelectors';
 import { addToFav, rmFromFav } from '../../redux/favorites/favoritesSlise';
+import Modal from '../Modal/Modal';
+import ModalWindow from '../Modal/Modal';
+import { useState } from 'react';
 
 export const VehicleCard = ({ data }) => {
   const {
@@ -17,6 +20,16 @@ export const VehicleCard = ({ data }) => {
     functionalities,
     img,
   } = data;
+
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   const favorites = useSelector(selectFavorites);
   const dispatch = useDispatch();
@@ -80,15 +93,16 @@ export const VehicleCard = ({ data }) => {
               <li>{type}</li>
               <li>{model}</li>
               <li>{id}</li>
-              <li>{functionalities[1]}</li>
+              <li>{functionalities[0]}</li>
             </ul>
           </div>
 
-          <button type="bytton" className="info_button">
+          <button type="bytton" className="info_button" onClick={openModal}>
             Learn more
           </button>
         </div>
       </StyledCard>
+      <ModalWindow isOpen={modalIsOpen} closeModal={closeModal} data={data} />
     </div>
   );
 };
