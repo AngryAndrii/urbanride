@@ -4,8 +4,8 @@ import HomeStyled from './Home.styled';
 const Home = () => {
   return (
     <HomeStyled>
-      <h1>Welcome to UrbanRide Rental</h1> – Your Ultimate Destination for Car
-      Rentals in Ukrainian Cities!
+      <h1>Welcome to UrbanRide Rental</h1>
+      <p>– Your Ultimate Destination for Car Rentals in Ukrainian Cities!</p>
       <p>
         Discover the freedom of exploring Ukraine at your own pace with
         UrbanRide. Whether you're a tourist eager to explore the rich cultural
