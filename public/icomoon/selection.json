@@ -1,0 +1,138 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M889.179 196.695c-21.794-21.803-47.667-39.098-76.146-50.898s-58.999-17.873-89.828-17.873c-30.828 0-61.349 6.073-89.828 17.873s-54.352 29.095-76.146 50.898l-45.227 45.227-45.227-45.227c-44.019-44.019-103.722-68.749-165.973-68.749s-121.954 24.73-165.973 68.749c-44.019 44.019-68.749 103.721-68.749 165.973s24.73 121.954 68.749 165.973l377.173 377.172 377.174-377.172c21.8-21.792 39.1-47.667 50.898-76.145s17.874-59.002 17.874-89.828c0-30.826-6.076-61.351-17.874-89.829s-29.099-54.353-50.898-76.145z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(52, 112, 255)",
+            "stroke": "rgb(52, 112, 255)",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 56.888888888888886
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "active"
+        ],
+        "colorPermutations": {
+          "2552552551521122551": [
+            {
+              "f": 0,
+              "s": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(52, 112, 255)",
+          "stroke": "rgb(52, 112, 255)",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 56.888888888888886
+        }
+      ],
+      "properties": {
+        "order": 3,
+        "id": 1,
+        "name": "active",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M889.179 196.695c-21.794-21.803-47.667-39.098-76.146-50.898s-58.999-17.873-89.828-17.873c-30.828 0-61.349 6.073-89.828 17.873s-54.352 29.095-76.146 50.898l-45.227 45.227-45.227-45.227c-44.019-44.019-103.722-68.749-165.973-68.749s-121.954 24.73-165.973 68.749c-44.019 44.019-68.749 103.721-68.749 165.973s24.73 121.954 68.749 165.973l377.173 377.172 377.174-377.172c21.8-21.792 39.1-47.667 50.898-76.145s17.874-59.002 17.874-89.828c0-30.826-6.076-61.351-17.874-89.829s-29.099-54.353-50.898-76.145z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "stroke": "rgb(255, 255, 255)",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "normal"
+        ],
+        "colorPermutations": {
+          "2552552551521122551": [
+            {
+              "s": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "stroke": "rgb(255, 255, 255)",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 2,
+        "id": 0,
+        "name": "normal",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 1
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-like",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
