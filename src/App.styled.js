@@ -10,8 +10,8 @@ const StyledApp = styled.div`
     height: 75px;
     column-gap: 15px;
     font-size: 25px;
-    border-bottom: 1px solid gray;
-    background-color: #9eb8d9;
+    border-bottom: 2px solid gray;
+    background-color: rgba(18, 205, 232, 0.8);
   }
 
   nav > a {
