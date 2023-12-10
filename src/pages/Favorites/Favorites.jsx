@@ -1,7 +1,6 @@
 import { useSelector } from 'react-redux';
 import CatalogStyled from '../Catalog/Catalog.styled';
 import { selectFavorites } from '../../redux/favorites/favoritesSelectors';
-import Filter from '../../components/Filter/Filter';
 import { VehicleCard } from '../../components/VehicleCard/VehicleCard';
 import StyledFavPage from './Favorites.styled';
 
@@ -15,7 +14,6 @@ const Favorites = () => {
           <h1>Favorite list is empty</h1>
         ) : (
           <>
-            <Filter />
             <CatalogStyled>
               <ul className="container list">
                 {favorites.map((el, id) => (
