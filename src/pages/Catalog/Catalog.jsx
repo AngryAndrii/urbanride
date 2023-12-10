@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getCars } from '../../redux/selectors';
 import { VehicleCard } from '../../components/VehicleCard/VehicleCard';
 import CatalogStyled from './Catalog.styled';
-import Filter from '../../components/Filter/Filter';
 
 const Catalog = () => {
   const dispatch = useDispatch();
@@ -27,7 +26,6 @@ const Catalog = () => {
 
   return (
     <CatalogStyled>
-      <Filter cars={cars} />
       <ul className="container list">
         {cars.map((el, id) => (
           <li key={id}>
