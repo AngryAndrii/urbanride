@@ -38,7 +38,7 @@ const StyledCard = styled.div`
 
   .secondary_descr > ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-weight: 400;
     line-height: 1.5;
   }
@@ -55,6 +55,8 @@ const StyledCard = styled.div`
   .secondary_descr > ul > li {
     font-size: 12px;
     color: rgba(18, 20, 23, 0.5);
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   .info_button {
