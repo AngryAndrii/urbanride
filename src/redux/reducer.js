@@ -8,13 +8,7 @@ const favoritePersistConfig = {
   storage,
 };
 
-// const filterPersistConfig = {
-//   key: 'filter',
-//   storage,
-// };
-
 export const reducer = {
   cars: carsReducer,
   favorites: persistReducer(favoritePersistConfig, favoritesReducer),
-  //   filter: persistReducer(filterPersistConfig, filterReducer),
 };
