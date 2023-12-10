@@ -5,10 +5,9 @@ const HomeStyled = styled.div`
   margin: 0;
   /* background-color: #6e6d6a; */
   background-image: linear-gradient(
-      rgba(227, 26, 130, 0.8),
-      rgba(18, 205, 232, 0.8)
-    ),
-    url('../../../public/main_img.jpg');
+    rgba(227, 26, 130, 0.8),
+    rgba(18, 205, 232, 0.8)
+  );
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
