@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import StyledList from '../Catalog/Catalog.styled';
+import CatalogStyled from '../Catalog/Catalog.styled';
 import { selectFavorites } from '../../redux/favorites/favoritesSelectors';
 import Filter from '../../components/Filter/Filter';
 import { VehicleCard } from '../../components/VehicleCard/VehicleCard';
@@ -16,13 +16,15 @@ const Favorites = () => {
         ) : (
           <>
             <Filter />
-            <StyledList className="container">
-              {favorites.map((el, id) => (
-                <li key={id}>
-                  <VehicleCard data={el} />
-                </li>
-              ))}
-            </StyledList>
+            <CatalogStyled>
+              <ul className="container list">
+                {favorites.map((el, id) => (
+                  <li key={id}>
+                    <VehicleCard data={el} />
+                  </li>
+                ))}
+              </ul>
+            </CatalogStyled>
           </>
         )}
       </div>
