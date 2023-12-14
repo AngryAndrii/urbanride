@@ -102,7 +102,9 @@ export const VehicleCard = ({ data }) => {
           </button>
         </div>
       </StyledCard>
-      <ModalWindow isOpen={modalIsOpen} closeModal={closeModal} data={data} />
+      {modalIsOpen && (
+        <ModalWindow isOpen={modalIsOpen} closeModal={closeModal} data={data} />
+      )}
     </div>
   );
 };
