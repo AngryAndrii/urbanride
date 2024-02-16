@@ -3,4 +3,4 @@ Ukraine! just choose a car on the website, and contact us using the "order"
 button. If you want to like the car for the future, you can add it to the
 favorite list by clicking on the "like" button
 
-![preview image](/public/image.JPG 'preview image')
+![preview image](/public/image.JPG 'preview image') #lol
