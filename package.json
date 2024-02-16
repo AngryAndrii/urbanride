@@ -2,7 +2,7 @@
   "name": "urban-ride",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AngryAndrii.github.io/UrbanRide/",
+  "homepage": "https://AngryAndrii.github.io/urbanuide/",
   "type": "module",
   "scripts": {
     "dev": "vite",
